@@ -1,4 +1,6 @@
 import React from 'react';
+import MiniHeader from './components/mini-header';
+import Welcome from './components/WelcomeBlock';
 
 class Home extends React.Component{
     constructor(props){
@@ -10,7 +12,10 @@ class Home extends React.Component{
 
     render(){
         return(
-            <h1>Test test... This will be the portfolio website</h1>
+            <div>
+                <MiniHeader/>
+                <Welcome />
+            </div>
         )
     }
 }
