@@ -1,6 +1,8 @@
 import React from 'react';
 import MiniHeader from './components/mini-header';
 import Welcome from './components/WelcomeBlock';
+import WorkingList from './components/UpdateList';
+import ProjectList from './components/ProjectList';
 
 class Home extends React.Component{
     constructor(props){
@@ -13,8 +15,12 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <MiniHeader/>
-                <Welcome />
+                <MiniHeader />
+                <div style = {{backgroundColor: "black"}}>
+                    <Welcome />
+                </div>
+                <WorkingList />
+                <ProjectList />
             </div>
         )
     }
