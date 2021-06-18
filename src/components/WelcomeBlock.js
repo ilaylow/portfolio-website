@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import profile_pic from '../images/pic_of_me.jpeg'
+import '../transition.css'
 
 const WelcomeDiv = styled.div`
     display: flex;
@@ -32,7 +33,7 @@ const StyledPara = styled.p`
 export default function Welcome(){
     return(
         <div style = {{fontFamily: ""}}>
-            <StyledHeader>Welcome!</StyledHeader>
+            <StyledHeader className = "fade-in-text">Welcome! よこそう</StyledHeader>
             <WelcomeDiv>
                 <img style = {{marginLeft: "8%"}}src={profile_pic} alt = "Picture of me" width="400" height="400"/>
                 <div>

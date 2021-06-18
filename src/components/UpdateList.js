@@ -4,7 +4,6 @@ import styled from "styled-components";
 const CurrentWorkDiv = styled.div`
     background-color: lightgrey;
     font-family: Montserrat, sans-serif;
-    padding-top: 1.5%;
     padding-bottom: 1.5%;
 `
 
@@ -12,8 +11,10 @@ const Header2Style = {
     margin: "0",
     fontSize: "200%",
     fontWeight: "bolder",
+    paddingTop: "1%",
     paddingBottom: "1%",
     fontFamily: 'Titillium Web, sans-serif',
+    backgroundColor: "darkgrey",
 }
 
 const StyledPara = styled.p`
