@@ -13,6 +13,7 @@ const Header2Style = {
     fontWeight: "bolder",
     paddingTop: "1%",
     paddingBottom: "1%",
+    paddingLeft: "1%",
     fontFamily: 'Titillium Web, sans-serif',
     backgroundColor: "darkgrey",
 }

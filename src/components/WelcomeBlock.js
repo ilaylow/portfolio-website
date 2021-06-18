@@ -35,7 +35,7 @@ export default function Welcome(){
         <div style = {{fontFamily: ""}}>
             <StyledHeader className = "fade-in-text">Welcome! よこそう</StyledHeader>
             <WelcomeDiv>
-                <img style = {{marginLeft: "8%"}}src={profile_pic} alt = "Picture of me" width="400" height="400"/>
+                <img style = {{marginLeft: "8%"}}src={profile_pic} alt = "Me" width="400" height="400"/>
                 <div>
                     <StyledPara>
                         Hi there! こんにちは! Thanks for checking out my page! I'm Ley and I'm currently a third year undergraduate student 
