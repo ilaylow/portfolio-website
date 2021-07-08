@@ -15,8 +15,7 @@ const StyledHeader = styled.h1`
     padding-bottom: 1%;
     font-size: 280%;
     margin: 0;
-    color: black;
-    background-color: white;
+    color: white;
 `;
 
 const StyledPara = styled.p`
