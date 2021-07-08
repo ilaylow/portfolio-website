@@ -15,6 +15,7 @@ const StyledHeader = styled.h1`
     padding-bottom: 1%;
     font-size: 280%;
     margin: 0;
+    background-color: black;
     color: white;
 `;
 

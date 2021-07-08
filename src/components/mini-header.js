@@ -24,6 +24,10 @@ const HeaderDiv = styled.div`
 
     a {
         color: inherit;
+        transition: 0.25s;
+        &:hover{
+            transform: scale(1.25);
+        }
     }
 `;
 
